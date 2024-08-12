@@ -1,0 +1,15 @@
+﻿<Window x:Class="SmokersProblem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Smokers Problem" Height="240" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Состояние курильщиков:" FontWeight="Bold" Margin="10"/>
+            <TextBlock x:Name="Smoker1Status" Text="Курильщик 1: Ожидает" Margin="10"/>
+            <TextBlock x:Name="Smoker2Status" Text="Курильщик 2: Ожидает" Margin="10"/>
+            <TextBlock x:Name="Smoker3Status" Text="Курильщик 3: Ожидает" Margin="10"/>
+            <TextBlock Text="Состояние посредника:" FontWeight="Bold" Margin="10"/>
+            <TextBlock x:Name="BrokerStatus" Text="Посредник: Ожидает" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
